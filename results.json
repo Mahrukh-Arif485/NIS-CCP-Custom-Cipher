@@ -1,0 +1,166 @@
+{
+ "roundtrip_all_ok": true,
+ "frequency": [
+  {
+   "length": 50,
+   "shift_success": 1.0,
+   "custom_full_success": 0.0,
+   "custom_letters_correct": 0.0745,
+   "period_found_multiple_of_10": 0.125,
+   "IC_shift": 0.0628,
+   "IC_custom": 0.0383
+  },
+  {
+   "length": 100,
+   "shift_success": 1.0,
+   "custom_full_success": 0.0,
+   "custom_letters_correct": 0.0629,
+   "period_found_multiple_of_10": 0.255,
+   "IC_shift": 0.0659,
+   "IC_custom": 0.0388
+  },
+  {
+   "length": 200,
+   "shift_success": 1.0,
+   "custom_full_success": 0.0,
+   "custom_letters_correct": 0.0548,
+   "period_found_multiple_of_10": 0.27,
+   "IC_shift": 0.0662,
+   "IC_custom": 0.0386
+  },
+  {
+   "length": 500,
+   "shift_success": 1.0,
+   "custom_full_success": 0.0,
+   "custom_letters_correct": 0.0514,
+   "period_found_multiple_of_10": 0.24,
+   "IC_shift": 0.0668,
+   "IC_custom": 0.0388
+  },
+  {
+   "length": 1000,
+   "shift_success": 1.0,
+   "custom_full_success": 0.0,
+   "custom_letters_correct": 0.0547,
+   "period_found_multiple_of_10": 0.41,
+   "IC_shift": 0.0673,
+   "IC_custom": 0.0389
+  },
+  {
+   "length": 5000,
+   "shift_success": 1.0,
+   "custom_full_success": 0.0,
+   "custom_letters_correct": 0.0599,
+   "period_found_multiple_of_10": 0.69,
+   "IC_shift": 0.0673,
+   "IC_custom": 0.039
+  }
+ ],
+ "kpa_success": [
+  {
+   "known_chars": 10,
+   "success_rate": 0.0
+  },
+  {
+   "known_chars": 14,
+   "success_rate": 0.264
+  },
+  {
+   "known_chars": 18,
+   "success_rate": 0.586
+  },
+  {
+   "known_chars": 20,
+   "success_rate": 0.92
+  },
+  {
+   "known_chars": 22,
+   "success_rate": 0.908
+  },
+  {
+   "known_chars": 26,
+   "success_rate": 1.0
+  },
+  {
+   "known_chars": 30,
+   "success_rate": 1.0
+  },
+  {
+   "known_chars": 40,
+   "success_rate": 1.0
+  },
+  {
+   "known_chars": 60,
+   "success_rate": 1.0
+  },
+  {
+   "known_chars": 100,
+   "success_rate": 1.0
+  }
+ ],
+ "kpa_effort": [
+  {
+   "ct_length": 1000,
+   "key_recovery_ms": 0.219,
+   "ops_key_recovery": 118,
+   "full_decrypt_ms": 0.57,
+   "correct": true
+  },
+  {
+   "ct_length": 10000,
+   "key_recovery_ms": 1.845,
+   "ops_key_recovery": 121,
+   "full_decrypt_ms": 5.87,
+   "correct": true
+  },
+  {
+   "ct_length": 100000,
+   "key_recovery_ms": 20.97,
+   "ops_key_recovery": 131,
+   "full_decrypt_ms": 62.92,
+   "correct": true
+  },
+  {
+   "ct_length": 1000000,
+   "key_recovery_ms": 250.642,
+   "ops_key_recovery": 117,
+   "full_decrypt_ms": 708.05,
+   "correct": true
+  }
+ ],
+ "timing": [
+  {
+   "length": 1000,
+   "custom_enc_ms": 0.57,
+   "custom_dec_ms": 0.62,
+   "shift_enc_ms": 0.31,
+   "shift_dec_ms": 0.31
+  },
+  {
+   "length": 10000,
+   "custom_enc_ms": 5.64,
+   "custom_dec_ms": 6.49,
+   "shift_enc_ms": 3.27,
+   "shift_dec_ms": 2.99
+  },
+  {
+   "length": 100000,
+   "custom_enc_ms": 64.73,
+   "custom_dec_ms": 75.49,
+   "shift_enc_ms": 34.35,
+   "shift_dec_ms": 34.62
+  },
+  {
+   "length": 1000000,
+   "custom_enc_ms": 720.08,
+   "custom_dec_ms": 770.91,
+   "shift_enc_ms": 363.85,
+   "shift_dec_ms": 366.03
+  }
+ ],
+ "hill_invertible_matrices": 157248,
+ "affine_keys": 312,
+ "vig_keys": 141167095653376,
+ "naive_keyspace": 6925851958678245605376,
+ "effective_keyspace": 22198243457302069248
+}
